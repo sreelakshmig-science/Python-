@@ -2,4 +2,11 @@
 
 #outer loop iterates from 5 get down to 1
 for i in range (5,0,-1):
+  #inner loop starts from i goes down to 1
+  for j in range(i,0,-1):
+    print(j, end='')
+  #Move to the next line 
+  print()
+
+
   
