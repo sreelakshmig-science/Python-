@@ -1,12 +1,23 @@
 #Pattern Program
 
-#outer loop iterates from 5 get down to 1
-for i in range (5,0,-1):
-  #inner loop starts from i goes down to 1
-  for j in range(i,0,-1):
-    print(j, end='')
-  #Move to the next line 
-  print()
+    #outer loop iterates from 5 get down to 1
+    for i in range (5,0,-1):
+      #inner loop starts from i goes down to 1
+      for j in range(i,0,-1):
+        print(j, end='')
+      #Move to the next line 
+      print()
 
+#Lazy Evaluation - is a strategy where an expression is not evaluated as soon as it is bound to a variable, but only when the value is actually needed.
+#In python this is generally achived by Generators
 
-  
+  #Generator function
+      def count_up_to(n):
+        for i in range (i,n+1):
+          yeild i #execution posses here and continued when called
+      # We create the generator object
+      numbers = count_up_to(1000000) 
+      
+      # Value is produced ONLY when we ask for it
+      print(next(numbers)) # Output: 1
+      print(next(numbers)) # Output: 2
