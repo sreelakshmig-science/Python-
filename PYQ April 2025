@@ -1,0 +1,5 @@
+#Pattern Program
+
+#outer loop iterates from 5 get down to 1
+for i in range (5,0,-1):
+  
