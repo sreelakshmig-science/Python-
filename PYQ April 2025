@@ -29,3 +29,5 @@
     while i<=10:
         product= num * i
         print(f"{num} * {i} + {product}")
+        i+=i
+
