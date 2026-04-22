@@ -8,8 +8,8 @@
           #Move to the next line 
           print()
 
-#Lazy Evaluation - is a strategy where an expression is not evaluated as soon as it is bound to a variable, but only when the value is actually needed.
-#In python this is generally achived by Generators
+    #Lazy Evaluation - is a strategy where an expression is not evaluated as soon as it is bound to a variable, but only when the value is actually needed.
+    #In python this is generally achived by Generators
 
   #Generator function
       def count_up_to(n):
