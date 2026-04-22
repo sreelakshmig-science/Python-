@@ -1,12 +1,12 @@
-#Pattern Program
-
-    #outer loop iterates from 5 get down to 1
-    for i in range (5,0,-1):
-      #inner loop starts from i goes down to 1
-      for j in range(i,0,-1):
-        print(j, end='')
-      #Move to the next line 
-      print()
+    #Pattern Program
+    
+        #outer loop iterates from 5 get down to 1
+        for i in range (5,0,-1):
+          #inner loop starts from i goes down to 1
+          for j in range(i,0,-1):
+            print(j, end='')
+          #Move to the next line 
+          print()
 
 #Lazy Evaluation - is a strategy where an expression is not evaluated as soon as it is bound to a variable, but only when the value is actually needed.
 #In python this is generally achived by Generators
