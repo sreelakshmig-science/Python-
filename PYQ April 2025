@@ -14,9 +14,9 @@
       #Generator function
           def count_up_to(n):
         for i in range (i,n+1):
-          yeild i #execution posses here and continued when called
-      # We create the generator object
-      numbers = count_up_to(1000000) 
+              yeild i #execution posses here and continued when called
+          # We create the generator object
+          numbers = count_up_to(1000000) 
       
       # Value is produced ONLY when we ask for it
       print(next(numbers)) # Output: 1
